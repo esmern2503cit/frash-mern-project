@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* =================================
+          Common Css start
+==================================== */
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.box {
+    display: flex;
+
+
+
+}
+ .button {
+    padding: 25px 91px;
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: .4s;
+    display: inline-block;
+   
+
+}
+ .button:hover{
+     background: transparent;
+     border-color: black;
+     color: black;
+     
+
+}
+
+/* =================================
+          Common Css end
+==================================== */
+/* =================================
+          Navber part  start
+==================================== */
+
+nav {
+    background: #FAE3B6;
+    padding: 47px 0px;
+}
+
+nav .box {
+
+    align-items: center;
+
+}
+
+.logo-part {
+    width: 15%;
+
+}
+
+.menu-part {
+    width: 65%;
+
+
+}
+
+.menu-part ul {
+    display: flex;
+    justify-content: center;
+    column-gap: 59px;
+
+
+}
+
+.menu-part ul li a {
+
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.button-part {
+    width: 20%;
+    text-align: right;
+
+}
+
+.button-part a {
+    background: #FDBB57;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050505;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px transparent;
+    transition: .4s;
+
+}
+
+.button-part a:hover {
+    background: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+
+
+}
+
+.button-part a:last-child {
+    margin-left: 10px;
+}
+
+/* =================================
+          Navber part  end
+==================================== */
+/* =================================
+          Bannar part  start
+==================================== */
+.bannar {
+    background: #FAE3B6;
+    padding-top: 117px;
+    padding-bottom: 102px;
+}
+
+.left-part {
+    width: 50%;
+
+}
+
+.bannar h1 {
+    font-size: 64px;
+    font-weight: 600;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    width: 540px;
+
+
+}
+
+.bannar p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    width: 530px;
+    padding-top: 30px;
+    padding-bottom: 76px;
+
+}
+
+
+
+.right-part {
+    width: 50%;
+
+}
+
+/* =================================
+          Bannar part  end
+==================================== */
+/* =================================
+          Collection part  start
+==================================== */
+.collection{
+    padding-top: 217px;
+    padding-bottom: 188px;
+}
+.collection .box{
+    justify-content: space-between;
+    padding-top: 106px;
+}
+.collection h2{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+.collection .collection-card{
+    width: 349px;
+    height: 402px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+.collection .collection-card .overly{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .4s;
+    padding-top: 280px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.collection .collection-card:hover .overly{
+    top: 0;
+
+}
+.collection .collection-card .overly p{
+    background: white;
+    padding: 9px 108px;
+    border-radius: 20px;
+     font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+   
+}
+.collection .collection-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+/* =================================
+          Collection part  end
+==================================== */
+/* =================================
+          Fashion part  start
+==================================== */
+.fashion .left-part{
+    width: 50%;
+    
+  
+}
+.fashion .left-part img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.fashion .box{
+    align-items: center;
+    
+    
+}
+.fashion .right-part{
+    width: 50%;
+    padding-left: 35px;
+    position: relative;
+    
+   
+}
+.fashion h2{
+  font-size: 64px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+    padding-bottom: 40px;
+}
+.fashion p{
+  font-size: 24px;
+   font-weight: 600;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    width: 443px;
+}
+.fashion .right-part .info-box{
+    width: 793px;
+    padding: 42px 0px;
+    border-radius: 20px;
+    background: #FEECC8;
+    position: absolute;
+    bottom: -270px;
+    right: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.fashion .right-part .info-box h3{
+    font-size: 64px;
+   font-weight: 700;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 12px;
+    
+    
+    
+
+}
+.fashion .right-part .info-box p{
+    font-size: 28px;
+   font-weight: 500;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    
+    
+
+}
+.fashion .right-part .info-box div{
+    width: 140px;
+    border-right: 1px solid black;
+    padding-right: 27px;
+    
+   
+}
+.fashion .right-part .info-box div:last-child{
+   
+    border-right: 1px solid transparent;
+    
+    
+   
+}
+/* =================================
+          Fashion part  end
+==================================== */
+/* =================================
+          Product part  start
+==================================== */
+.product{
+    background: #CFA485;
+    margin-top: 335px;
+    padding-top: 36px;
+    padding-bottom: 191px;
+}
+.product .left-part{
+    width: 40%;
+   
+    
+}
+.product .left-part h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Frank Ruhl Libre", serif;
+    
+   
+    
+}
+.product .left-part p{
+     font-size: 24px;
+   font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    width: 450px;
+   
+    
+   
+    
+}
+.product .right-part{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+.product .card{
+    width: 366px;
+    height: 551px;
+   
+}
+.product .card .card-image{
+    width: 100%;
+    height: 424px;
+     border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
+
+}
+.product .card .card-image img{
+     border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+
+
+}
+.product .card .card-content{
+  background: #fff;
+  padding-top: 14px;
+  padding-left: 22px;
+
+
+}
+.product .card .card-content ul{
+    display: flex;
+    column-gap: 10px;
+}
+.product .card .card-content ul li .fa-star{
+    color: #FFAF37;
+}
+
+/* =================================
+          Product part  end
+==================================== */
